@@ -61,6 +61,7 @@ set hidden
 
 " Настройка подсветки синтаксиса
 set term=gnome-256color
+colorscheme railscasts
 
 " Показывать синтаксические ошибки
 let g:syntastic_enable_signs=1
