@@ -1,5 +1,8 @@
 call pathogen#infect()
 
+" Для корректной работы клавиши Backspace
+set backspace=2
+
 " Появление окон справа и снизу от текущего
 set splitright
 set splitbelow
