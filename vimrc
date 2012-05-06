@@ -63,7 +63,7 @@ set smartcase
 set hidden
 
 " Настройка подсветки синтаксиса
-set term=gnome-256color
+set t_Co=256
 colorscheme railscasts
 
 " Показывать синтаксические ошибки
