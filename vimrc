@@ -77,3 +77,6 @@ imap jj <ESC>
 
 " Переход в терминал
 map <leader>sh :sh<cr>
+
+" Показывать список буферов по F5
+nnoremap <F5> :buffers<CR>:buffer<Space>
