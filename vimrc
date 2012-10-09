@@ -81,5 +81,10 @@ map <leader>sh :sh<cr>
 " Показывать список буферов по F5
 nnoremap <F5> :buffers<CR>:buffer<Space>
 
+" Переназначаем клавиши плагина ri.vim
+nnoremap ,i :call ri#OpenSearchPrompt(0)<CR>
+nnoremap ,I :call ri#OpenSearchPrompt(1)<CR>
+nnoremap ,K :call ri#LookupNameUnderCursor()<CR>
+
 " Открывать буфер RubyRunner под текущим буфером
 let g:RubyRunner_open_below = 1
