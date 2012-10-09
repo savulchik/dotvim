@@ -19,7 +19,7 @@ filetype plugin indent on
 " Включение режима несовместимости с vi
 set nocompatible
 
-" Назначение mapleader клавиши 
+" Назначение mapleader клавиши
 let mapleader = ","
 
 " Всегда показывать текущую строку под курсором
@@ -34,7 +34,7 @@ set showmode
 " Подсвечивать найденные слова в документе
 set hlsearch
 
-" Подсвечивать найденные слова по мере набора строки поиска  
+" Подсвечивать найденные слова по мере набора строки поиска
 set incsearch
 
 " Показывать номер строк
@@ -80,3 +80,6 @@ map <leader>sh :sh<cr>
 
 " Показывать список буферов по F5
 nnoremap <F5> :buffers<CR>:buffer<Space>
+
+" Открывать буфер RubyRunner под текущим буфером
+let g:RubyRunner_open_below = 1
