@@ -40,6 +40,9 @@ set incsearch
 " Показывать номер строк
 set number
 
+" Отключить перенос строк
+set nowrap
+
 " Настройка ширины отступов
 set shiftwidth=2
 set softtabstop=2
