@@ -1,5 +1,8 @@
 call pathogen#infect()
 
+" Отключение автоматического переноса строк
+set tw=0
+
 " Для корректной работы клавиши Backspace
 set backspace=2
 
