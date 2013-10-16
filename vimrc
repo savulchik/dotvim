@@ -94,3 +94,6 @@ nnoremap ,K :call ri#LookupNameUnderCursor()<CR>
 
 " Открывать буфер RubyRunner под текущим буфером
 let g:RubyRunner_open_below = 1
+
+" Форматирование xml с помощью xmllint
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
