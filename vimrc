@@ -1,8 +1,5 @@
 call pathogen#infect()
 
-" Отключение автоматического переноса строк
-set tw=0
-
 " Для корректной работы клавиши Backspace
 set backspace=2
 
@@ -97,3 +94,6 @@ let g:RubyRunner_open_below = 1
 
 " Форматирование xml с помощью xmllint
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+
+" Отключение автоматического переноса строк
+set tw=0
