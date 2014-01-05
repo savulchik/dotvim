@@ -7,27 +7,12 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/vim-rake"]
-	path = bundle/vim-rake
-	url = https://github.com/tpope/vim-rake.git
-[submodule "bundle/vim-bundler"]
-	path = bundle/vim-bundler
-	url = https://github.com/tpope/vim-bundler.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/ri.vim"]
-	path = bundle/ri.vim
-	url = https://github.com/danchoi/ri.vim.git
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle/file-line"]
 	path = bundle/file-line
 	url = https://github.com/vim-scripts/file-line.git
-[submodule "bundle/taglist.vim"]
-	path = bundle/taglist.vim
-	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
@@ -40,21 +25,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "bundle/zencoding-vim"]
-	path = bundle/zencoding-vim
-	url = https://github.com/mattn/zencoding-vim.git
 [submodule "bundle/vim-trailing-whitespace"]
 	path = bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-ruby-runner"]
-	path = bundle/vim-ruby-runner
-	url = https://github.com/henrik/vim-ruby-runner.git
-[submodule "bundle/capslock.vim"]
-	path = bundle/capslock.vim
-	url = https://github.com/vim-scripts/capslock.vim.git
-[submodule "bundle/csv.vim"]
-	path = bundle/csv.vim
-	url = https://github.com/chrisbra/csv.vim.git
