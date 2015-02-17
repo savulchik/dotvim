@@ -84,16 +84,16 @@ map <leader>sh :sh<cr>
 " Показывать список буферов по F5
 nnoremap <F5> :buffers<CR>:buffer<Space>
 
-" Переназначаем клавиши плагина ri.vim
-nnoremap ,i :call ri#OpenSearchPrompt(0)<CR>
-nnoremap ,I :call ri#OpenSearchPrompt(1)<CR>
-nnoremap ,K :call ri#LookupNameUnderCursor()<CR>
-
-" Открывать буфер RubyRunner под текущим буфером
-let g:RubyRunner_open_below = 1
+" Сохранение буфера
+noremap <Leader>s :w<CR>
 
 " Форматирование xml с помощью xmllint
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+au FileType json setlocal equalprg=python\ -m\ json.tool\ 2>/dev/null
 
 " Отключение автоматического переноса строк
 set tw=0
+
+" Работа с системным буфером обмена
+set clipboard=unnamed
+
