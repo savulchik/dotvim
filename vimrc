@@ -97,3 +97,6 @@ set tw=0
 " Работа с системным буфером обмена
 set clipboard=unnamed
 
+" Отключение Ex mode
+nnoremap Q <nop>
+
