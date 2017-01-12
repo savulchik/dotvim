@@ -100,3 +100,6 @@ set clipboard=unnamed
 " Отключение Ex mode
 nnoremap Q <nop>
 
+" Открытие NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
