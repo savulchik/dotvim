@@ -90,6 +90,7 @@ noremap <Leader>s :w<CR>
 " Форматирование xml с помощью xmllint
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 au FileType json setlocal equalprg=python\ -m\ json.tool\ 2>/dev/null
+au FileType sql setlocal equalprg=sqlformat\ -r\ -k\ upper\ -\ 2>/dev/null
 
 " Отключение автоматического переноса строк
 set tw=0
