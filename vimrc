@@ -96,7 +96,7 @@ au FileType sql setlocal equalprg=sqlformat\ -r\ -k\ upper\ -\ 2>/dev/null
 set tw=0
 
 " Работа с системным буфером обмена
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Отключение Ex mode
 nnoremap Q <nop>
