@@ -96,7 +96,11 @@ au FileType sql setlocal equalprg=sqlformat\ -r\ -k\ upper\ -\ 2>/dev/null
 set tw=0
 
 " Работа с системным буфером обмена
-set clipboard=unnamedplus
+if system('uname -s') == "Darwin\n"
+  set clipboard=unnamed "OSX
+else
+  set clipboard=unnamedplus "Linux
+endif
 
 " Отключение Ex mode
 nnoremap Q <nop>
