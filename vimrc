@@ -87,6 +87,10 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 " Сохранение буфера
 noremap <Leader>s :w<CR>
 
+if &diff
+  nmap <Leader>q :qa!<CR>
+endif
+
 " Форматирование xml с помощью xmllint
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 au FileType json setlocal equalprg=python\ -m\ json.tool\ 2>/dev/null
