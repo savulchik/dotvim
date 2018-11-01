@@ -89,6 +89,7 @@ noremap <Leader>s :w<CR>
 
 if &diff
   nmap <Leader>q :qa!<CR>
+  nmap <Leader>e :e!<CR>
 endif
 
 " Форматирование xml с помощью xmllint
